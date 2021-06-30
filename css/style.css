@@ -96,6 +96,7 @@ body {
 .full-screen {
   position: relative;
   min-height: 100vh;
+  overflow: hidden;
   display: flex;
   flex-direction: column;
 }
@@ -119,8 +120,8 @@ body {
   justify-content: center;
 }
 .full-screen__text {
-  font-size: 54px;
-  letter-spacing: 27px;
+  font-size: 46px;
+  letter-spacing: 20px;
   text-align: center;
 }
 .full-screen__video {
